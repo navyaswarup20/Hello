@@ -13,7 +13,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Dhrubajoti Dey
  * Here I have designed the paradigm  for the user to create his credentials.
  *
  */
@@ -52,14 +51,16 @@ public class UserService {
         userDao.save(adminUser);
 
         User user = new User();
-        user.setUserName("dhruvdey0907");
-        user.setUserPassword(getEncodedPassword("dhruv"));
-        user.setUserFirstName("Dhruv");
-        user.setUserLastName("Dey");
+        user.setUserName("kiran");
+        user.setUserPassword(getEncodedPassword("kiran"));
+        user.setUserFirstName("kiran");
+        user.setUserLastName("channaraju");
         Set<Role> userRoles = new HashSet<>();
         userRoles.add(userRole);
         user.setRole(userRoles);
         userDao.save(user);
+        
+     
     }
 
     public User registerNewUser(User user) {

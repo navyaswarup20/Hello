@@ -7,9 +7,7 @@ import org.springframework.stereotype.Repository;
 import com.ecommerce.entity.Product;
 
 /**
- * @author Jaspreet Kaur Saluja and Manya Mishra
  * This is basically a repository to perform crud operations inside the database.
- *
  */
 @Repository
 public interface ProductDao  extends CrudRepository<Product, Integer>{

@@ -9,9 +9,7 @@ import com.ecommerce.entity.Role;
 import com.ecommerce.service.RoleService;
 
 /**
- * @author Dhrubajoti Dey
  * I have created a route to initiate the role which can be either user or admin.
- *
  */
 @RestController
 public class RoleController {

@@ -7,7 +7,6 @@ import com.ecommerce.dao.RoleDao;
 import com.ecommerce.entity.Role;
 
 /**
- * @author Dhrubajoti Dey
  * In this class, I have created a functionality of creating a new role which can be admin or user and then storing it in roleDao which will ultimately be added in our database.
  *
  */

@@ -6,14 +6,11 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * @author Dhrubajoti Dey 
  *         The purpose of this configuration is to enable
  *         Cross-Origin Resource Sharing for all endpoints and allow
  *         requests with specified HTTP methods, headers, and origins. It allows
  *         requests to be made from any origin and includes support for
  *         credentials.
- * 
- *
  */
 @Configuration
 public class CorsConfiguration {
